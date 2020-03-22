@@ -32,13 +32,14 @@
 	* swift.org
 	
 ### Purpose
-* **Apple, Inc.**
-	* Developed by Apple, Inc.
-	* First released June 2nd, 2014
-	* Latest version: 5.1.5
-	* Apache License 2.0
-	* swift.org
-	
+* **Purpose**
+	* Swift is designed to work with Apple's 
+	Cocoa and Cocoa Touch frameworks and the 
+	large body of existing Objective-C code 
+	written for Apple product
+	* it uses the Objective-C runtime library 
+	which allows C, Objective-C, C++ and Swift 
+	code to run within one program
 <hr>
 <hr>
 
