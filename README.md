@@ -48,7 +48,26 @@
 ### Closure Support
 * **Closures**
 	* Referred to as 'lambdas' in other languages
+	```	
+		// Example Closure for adding 2 numbers together
+		{(arg1: Int, arg2: Int) -> Int in
+			return arg1 + arg2
+		}
+	```
 	
+	* Has trailing closure syntax
+	```
+	// This function takes a closure or function that returns an int and then just evaluates the function.
+	func a(closure a: () -> Int) -> Int {
+		return a()
+	}
+
+	/// Without trailing closure syntax
+	a(closure: {return 1})
+
+	/// With trailing closure syntax
+	a {return 1}
+	```
 ### Access Control
 * **Apple, Inc.**
 	* Developed by Apple, Inc.
