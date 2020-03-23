@@ -9,3 +9,21 @@
 import Foundation
 
 print("Hello, World!")
+
+func fibNumbs(nums counter:Int){
+    var curr = 0
+    var prev = curr
+    for i in 0...counter{
+        if(i != 0){
+            print(curr)
+            var temp = prev
+            prev = curr
+            curr += temp
+        }else {
+            print(curr)
+            curr += 1
+        }
+    }
+}
+
+fibNumbs(nums: 10)
