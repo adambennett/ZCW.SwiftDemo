@@ -11,12 +11,11 @@ import Foundation
 print("Hello, World!")
 
 func fibNumbs(nums counter:Int){
-    var curr = 0
-    var prev = curr
+    var curr = 0, prev = 0;
     for i in 0...counter{
         if(i != 0){
             print(curr)
-            var temp = prev
+            let temp = prev
             prev = curr
             curr += temp
         }else {
